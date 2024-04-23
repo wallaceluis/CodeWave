@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWave</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="m-0 fs-4 fw-bold">CodeWave</h1>
+            <button type="button" class="navbar-toggler" data-bs-target="#menu-navegacao" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item me-3 fw-bold">
+                        <a class="nav-link active" href="#sobre-a-empresa">
+                            <i class="bi bi-house-door me-1 fs-5"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item me-3 fw-bold">
+                        <a class="nav-link" href="#servicos">
+                            <i class="bi bi-building-gear me-1 fs-5"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item me-3 fw-bold">
+                        <a class="nav-link" href="#solucoes">
+                            <i class="bi bi-cart4 me-1 fs-5"></i>
+                            Soluções
+                        </a>
+                    </li>
+                    <li class="nav-item me-3 fw-bold">
+                        <a class="nav-link" href="#contato">
+                            <i class="bi bi-chat-left-text me-1 fs-5"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-target="#cabecalho" data-bs-spy="scroll" data-bs-smooth-scroll="true">
+        <section id="sobre-a-empresa">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img data-bs-interval="3000" class="d-block w-100" src="/images/Banner 1 CodeWave.png" alt="Banner Codewave é a solução para sua empresa">
+                    </div>
+                    <div class="carousel-item">
+                        <img data-bs-interval="3000" class="d-block w-100" src="/images/Banner 2 CodeWave.png" alt="Banner CodeWave tem tudo sobre tecnologia">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                </div>
+            </div>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img class="d-block w-100 rounded" src="/images/escritorio.jpg" alt="Imagem escritorio">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="mt-3 mt-md-0">Sobre nós</h2>
+                        <p>A CodeWave é uma empresa de desenvolvimento de software fundada em 2010 por um grupo de entusiastas apaixonados por tecnologia. Nossa missão é capacitar empresas de todos os tamanhos a alcançar seu pleno potencial por meio da inovação digital. Desde a nossa fundação, nos dedicamos a fornecer soluções de software de alta qualidade, combinando criatividade, excelência técnica e compromisso com a satisfação do cliente. Acreditamos que a tecnologia tem o poder de transformar negócios e impulsionar o progresso, e estamos comprometidos em ajudar nossos clientes a navegarem no mundo digital em constante evolução.</p>
+                        <h3>Missão</h3>
+                        <p>Na CodeWave, nossa missão é capacitar empresas a alcançar seu pleno potencial por meio da tecnologia. Estamos comprometidos em fornecer soluções de software inovadoras e sob medida que atendam às necessidades específicas de cada cliente. Nossa equipe altamente qualificada e experiente trabalha em estreita colaboração com os clientes para entender seus objetivos de negócios e oferecer soluções personalizadas que impulsionem o crescimento e a eficiência.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5" id="servicos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center pb-3">Nossos serviços</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="rounded d-block w-100" src="/images/desenvolvimento mobile.jpg" alt="Elementos de Desenvolvimento Mobile">
+                        <h3 class="pt-3 text-colored h4 fw-bold">
+                            <i class="bi bi-apple"></i>
+                            Desenvolvimento mobile
+                        </h3>
+                        <p>Desenvolvemos aplicativos móveis para iOS e Android, adaptados às necessidades e especificações de cada cliente.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="rounded d-block w-100" src="/images/desenvolvimento web.jpg" alt="Elementos de Desenvolvimento Web">
+                        <h3 class="pt-3 text-colored h4 fw-bold">
+                            <i class="bi bi-pc-display"></i>
+                            Desenvolvimento Web
+                        </h3>
+                        <p>Criamos aplicativos web personalizados, desde sistemas de gestão até plataformas de comércio eletrônico, garantindo uma presença online eficaz e envolvente.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="rounded d-block w-100" src="/images/consultoria TI.jpg" alt="Consultoria em Tecnologia">
+                        <h3 class="pt-3 text-colored h4 fw-bold">
+                            <i class="bi bi-globe2"></i>
+                            Consultoria em Tecnologia
+                        </h3>
+                        <p>Oferecemos consultoria especializada em tecnologia para ajudar empresas a identificar oportunidades de inovação, otimizar processos e maximizar o retorno sobre seus investimentos em TI.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="solucoes" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">Soluções</h2>
+                    <h5 class="text-center pb-4">Implementamos soluções para sua empresa</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <aside>
+                            <nav class="nav nav-pills flex-column">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#erp" class="nav-link text-colored fw-bold text-start active">Sistemas de Gestão Empresarial (ERP)</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#crm" class="nav-link text-colored fw-bold text-start">Software de Gestão de Relacionamento com o Cliente (CRM)</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#sgp" class="nav-link text-colored fw-bold text-start">Software de Gestão de Projetos</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#sam" class="nav-link text-colored fw-bold text-start">Software de Automação de Marketing</button>                    
+                            </nav>
+                        </aside>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="tab-content ps-4">
+                            <div class="tab-pane active" id="erp">
+                                <div class="row align-items-center">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-4" src="/images/ERP/sap.png" alt="Logo SAP">
+                                        <h3 class="text-colored fw-bold">SAP</h3>
+                                        <p>Um sistema abrangente que integra diversos processos empresariais, como contabilidade, recursos humanos, vendas, compras e produção.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-4" src="/images/ERP/Dynamics-365-logo.png" alt="Logo Dynamics-365">
+                                        <h3 class="text-colored fw-bold">Dynamics 365</h3>
+                                        <p>Uma plataforma em nuvem que oferece módulos para gerenciamento financeiro, CRM, gerenciamento de cadeia de suprimentos e muito mais.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-4" src="/images/ERP/oracle-netsuite-logo-colour.png" alt="Logo oracle netsuite">
+                                        <h3 class="text-colored fw-bold">Oracle Netsuite</h3>
+                                        <p>Uma solução flexível que abrange vendas, atendimento ao cliente, operações, finanças, marketing e muito mais, tudo em uma única plataforma.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="crm">
+                                <div class="row align-items-center">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-4" src="/images/CRM/HubSpot logo.png" alt="Logo HubSpot">
+                                        <h3 class="text-colored fw-bold">HubSpot CRM</h3>
+                                        <p>Uma solução gratuita que permite gerenciar contatos, rastrear interações com clientes, automatizar tarefas de vendas e muito mais.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-4" src="/images/CRM/salesforce.png" alt="Logo Dynamics-365">
+                                        <h3 class="text-colored fw-bold">Salesforce</h3>
+                                        <p>Uma plataforma líder em CRM que ajuda a gerenciar contatos, leads, oportunidades de vendas e muito mais, tudo em um único lugar.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-4" src="/images/CRM/zoro crm.png" alt="Logo oracle netsuite">
+                                        <h3 class="text-colored fw-bold">Zoro CRM</h3>
+                                        <p>Uma plataforma acessível que oferece recursos abrangentes de CRM, incluindo automação de vendas, marketing por e-mail, análise de dados e muito mais.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sgp">
+                                <div class="row align-items-center">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-4" src="/images/SGP/asana.png" alt="Logo HubSpot">
+                                        <h3 class="text-colored fw-bold">Asana</h3>
+                                        <p>Uma ferramenta de gerenciamento de projetos que ajuda equipes a acompanhar o progresso das tarefas, atribuir responsabilidades e colaborar de forma eficaz.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-4" src="/images/SGP/jira.png " alt="Logo Dynamics-365">
+                                        <h3 class="text-colored fw-bold">Jira</h3>
+                                        <p>Uma plataforma líder em CRM que ajuda a gerenciar contatos, leads, oportunidades de vendas e muito mais, tudo em um único lugar.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-4" src="/images/SGP/trello.png" alt="Logo oracle netsuite">
+                                        <h3 class="text-colored fw-bold">Trello</h3>
+                                        <p>Uma plataforma de gestão de projetos amplamente utilizada por equipes de desenvolvimento de software, que oferece recursos para rastreamento de problemas, planejamento de sprint, e muito mais.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sam">
+                                <div class="row align-items-center">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-4" src="/images/SAM/hubspot mkt.png" alt="Logo HubSpot Marketing Hub">
+                                        <h3 class="text-colored fw-bold">HubSpot Marketing Hub</h3>
+                                        <p>Uma plataforma completa que oferece automação de marketing, análise de dados, criação de landing pages, e-mail marketing e muito mais.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-4" src="/images/SAM/mailchimp.png" alt="Logo MailChimp">
+                                        <h3 class="text-colored fw-bold">Mailchimp</h3>
+                                        <p>Uma ferramenta popular para automação de marketing por e-mail, que permite criar campanhas segmentadas, enviar newsletters e acompanhar métricas de desempenho.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 pb-4" src="/images/SAM/pardot-logo.png" alt="Logo pardot">
+                                        <h3 class="text-colored fw-bold">Pardot</h3>
+                                        <p>Uma solução da Salesforce que oferece automação de marketing B2B, incluindo geração de leads, pontuação de leads, nutrição de leads e muito mais.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pb-5">
+            <div class="container">
+                <div class="row py-4">
+                    <h2 class="section-title text-center">Solicite orçamento</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5 mb-md-0">
+                        <form id="form">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Nome da Empresa</label>
+                                <input type="text" id="nome" name="nome" required class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">E-mail</label>
+                                <input type="email" id="email" name="email" required class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="tel" class="form-label fw-bold text-colored">Telefone</label>
+                                <input type="tel" id="tel" name="telefone" required class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea name="mensagem" id="mensagem" required class="form-control" rows="3"></textarea>
+                            </div>
+                            <button type="button" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="text-colored section-title fs-4 ">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class=" bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class=" bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class=" bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="text-colored section-title fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Avenida JavaScript nº404 , Bairro Bootstrap - São Paulo-SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
